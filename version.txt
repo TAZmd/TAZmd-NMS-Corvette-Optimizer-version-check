@@ -1,2 +1,3 @@
-1.3.2
-- Added Expedition Corvette support - Saves with an active expeditions now show an Expedition Corvettes section below Bases in the left sidebar. If you need more slots, use the new Expedition dropdown in Ship Slot Manager.
+1.3.3
+- Added a new corvette can now be done in the main ui, there will be a button if not maxed (Add Corvette) below the corvette list of the main save and expedition.
+- Several people have asked if they could support the project, so I've added this tip jar with a Paypal button.

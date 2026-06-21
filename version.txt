@@ -1,3 +1,5 @@
 1.3.3
-- Added a new corvette can now be done in the main ui, there will be a button if not maxed (Add Corvette) below the corvette list of the main save and expedition.
+- Adding a new corvette can now be done in the main ui, there will be a button if not maxed (Add Corvette) below the corvette list of the main save and expedition.
+- Hold to delete from 5 to 3 seconds.
+- Update later reminder from 5 days to 14 days.
 - Several people have asked if they could support the project, so I've added this tip jar with a Paypal button.

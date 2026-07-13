@@ -1,3 +1,11 @@
-1.3.4
-z Bug fix: Pasting a single object into the JSON box now appends instead of replacing the existing JSON.
-z New Feature: Object sizes are now displayed next to each object in the object list.
+1.3.5
+Bug Fixes
+- Fixed several issues in the Ship Slot Manager (SSM).
+- Fixed an issue where the object list in Single File Mode did not update after pasting new JSON.
+
+New Features
+- Added support for loading .hg files in Single File Mode for GOG users.
+- Added a confirmation dialog before saving changes in the Ship Slot Manager (SSM).
+- Added automatic class names for unnamed starships (Hauler, Explorer, etc.).
+- Added a Browse option in Restore Backup for save files stored in a custom location.
+- Added a Credits section, including three Ambassadors: Arcane Traveller, ChefZiggy and Aresmar, who have been involved since the beginning of the project, helping with promotion, bug hunting and providing valuable UI feedback.

@@ -1,4 +1,5 @@
 1.3.6
+(1.3.6)
 New Feature
 Added Custom Starship support in SSM, Now save to move Custom Starships from slot without losing the customization.
 

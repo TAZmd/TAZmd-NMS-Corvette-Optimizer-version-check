@@ -1,1 +1,1 @@
-The bug fix introduced in v1.3.4 ("Pasting a single object into the JSON box now appends instead of replacing the existing JSON") unintentionally broke the Ctrl+V protection that preserves BaseType, OriginalBaseVersion, and UserData. This will be fixed in v1.3.7.
+

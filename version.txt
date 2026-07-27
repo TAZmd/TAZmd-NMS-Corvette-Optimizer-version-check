@@ -19,8 +19,3 @@ New Feature
 - You can now choose your own backup location instead of using the default folder. If you use multiple Steam accounts, each one gets its own folder automatically so backups don't get mixed up.
 - Backups are now smarter about keeping old files. Instead of deleting by date, the app keeps only the number of backups you want and automatically removes older ones.
 - Font sizes throughout the app can be customized to make everything bigger or smaller depending on what's comfortable for you.
-------------------------------
-v1.3.8
-Bug Fixes
-- Save As and .so/.nmsship import no longer allow Freighters, Bases, External Bases, or Temp Stored Corvettes to be exported/imported as .so or .nmsship - only Corvettes have a linked Ship Ownership slot, so only Corvettes can use those formats. Other types can still be saved as .json/.txt.
-- Save As on Expedition Corvettes did nothing (loading screen flashed but the save dialog never opened).

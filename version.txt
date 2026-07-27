@@ -1,4 +1,4 @@
-v1.4.1
+1.4.1
 Bug Fixes
 - Error messages now tell you exactly what went wrong, instead of just saying something is wrong.
 - Pasting multiple objects at once no longer wipes out the rest of your list. Your existing work stays safe.

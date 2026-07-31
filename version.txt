@@ -1,3 +1,26 @@
+1.4.3
+Bug Fixes
+- SSM: The Confirm Save Changes screen now lines up UserData and Slot numbers correctly by their actual value instead of by list position, so mismatches are no longer shown on the wrong row.
+- What's New popup no longer cuts off the last few lines of long changelogs.
+- Object list colors (priority, tier warnings, duplicates) no longer show on Freighters and Bases, since those colors only apply to Corvettes.
+
+New Features
+- SSM: New "Add New Starship" button in Ship Slot Manager lets you assign a unique starships.
+- Load File is now available for Freighters and Bases, not just Corvettes.
+
+1.4.2
+Bug Fixes
+- The "Corvettes" and "Expedition Corvettes" headers disappearing after deleting the last corvette while the Add Corvette button stayed visible.
+- The update and What's New windows could extend past your screen instead of scrolling.
+- Paste All on the Objects list added objects instead of replacing them.
+- Deleting a corvette still created a backup of the linked autosave file.
+- Loading a save through Single File mode could create or point to the wrong backup folder.
+
+New Features
+- Added: Link indicators between the Persistent Player Base and Ship Ownership panels in Ship Slot Manager, showing which corvettes are correctly linked to their slot.
+- Added: A "Known Bugs & To-Do's" section to the Report Bug window.
+------------------------------
+
 1.4.1
 Bug Fixes
 - Error messages now tell you exactly what went wrong, instead of just saying something is wrong.
@@ -9,6 +32,7 @@ New Feature
 - You can add a subtle color fade to the background, choose its direction, or turn it off in Settings.
 - Buttons now resize automatically so text always fits, in every language.
 ------------------------------
+
 v1.4.0
 Bug Fixes
 - Auto-save backups were accumulating unnecessarily and taking up disk space. These are now completely disabled.

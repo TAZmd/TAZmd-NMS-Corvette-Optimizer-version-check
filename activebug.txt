@@ -1,2 +1,1 @@
-- Bug: the "Expedition Corvettes" (and "Corvettes") header disappears after deleting the last corvette, while the "+ Add Corvette" button stays visible without it.
-- Using Paste All into the Objects pane accumulate more objects in the parts list rather than replacing them.
+

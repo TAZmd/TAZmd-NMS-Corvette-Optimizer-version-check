@@ -1,1 +1,2 @@
-
+- Forgot to check pasting on other fields when the tree is open, only did root and objects. In the 1.4.4 this will be fixed.
+- SSM (Ship Slot Manager) loses your changes and can hit the wrong ship, If you drag a ship to a new slot without saving yet, and then delete a ship, it can affect the wrong slot, and your drag gets undone.

@@ -1,4 +1,32 @@
 1.4.3
+on NexusMods
+1.4.6
+on TAZmd.nl
+
+1.4.6
+Bug Fixes
+- In Single File Mode pasting a full ship JSON could wipe its UserData number and set it to -1 when nothing valid was selected. The correct number is now kept.
+- Loading a save with a broken or missing UserData number used to crash the app. It now repairs the file automatically or shows an error message instead of closing.
+New Features
+- Bases, freighters, and corvettes with a broken UserData number now show up in their own "Wrong UserData" section at the top of the tree, instead of being mixed into Corvettes, Freighter, and Bases.
+- What's New popup now shows your current version separately from the latest versions.
+- Report Bug window's shows fixed and active breakdown.
+
+1.4.5
+Bug Fixes
+- Fixed: Ctrl+V after Ctrl+A (select all) in the objects box added instead of replacing.
+- Fixed: pasting after manually clearing the JSON box could bring back deleted objects.
+- Fixed: missing [ or ] after editing no longer breaks pasting - auto-repaired.
+- Fixed: editing fields directly in the JSON box (Position, UserData, BaseType, etc.) wasn't actually saved. Now it is, for every base type.
+
+1.4.4
+Bug Fixes
+- Fixed pasting in other fields when the tree is open, and not only root and objects.
+- SSM (Ship Slot Manager) loses your changes and can hit the wrong ship, If you drag a ship to a new slot without saving yet, and then delete a ship, it can affect the wrong slot, and your drag gets undone.
+- Fixed: custom Starships (e.g. Iron Vulture) now correctly link their appearance data when added or changed.
+- Fixed: the "reload file" prompt no longer leaves the Ship Slot Manager panel stuck showing old data.
+
+1.4.3
 Bug Fixes
 - SSM: The Confirm Save Changes screen now lines up UserData and Slot numbers correctly by their actual value instead of by list position, so mismatches are no longer shown on the wrong row.
 - What's New popup no longer cuts off the last few lines of long changelogs.
@@ -19,7 +47,6 @@ Bug Fixes
 New Features
 - Added: Link indicators between the Persistent Player Base and Ship Ownership panels in Ship Slot Manager, showing which corvettes are correctly linked to their slot.
 - Added: A "Known Bugs & To-Do's" section to the Report Bug window.
-------------------------------
 
 1.4.1
 Bug Fixes
@@ -31,7 +58,6 @@ New Feature
 - The title bar now matches the app's look, and dims when the window is not active.
 - You can add a subtle color fade to the background, choose its direction, or turn it off in Settings.
 - Buttons now resize automatically so text always fits, in every language.
-------------------------------
 
 v1.4.0
 Bug Fixes

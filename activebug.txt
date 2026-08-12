@@ -1,13 +1,5 @@
 Fixed:
-- In Single File Mode, pasting a full ship JSON could set UserData to -1 when nothing valid was selected.
-- Loading a save with a broken or missing UserData number could crash the app.
-- Ctrl+V after Ctrl+A (select all) in the objects box added instead of replacing.
-- Pasting after manually clearing the JSON box could bring back deleted objects.
-- Missing [ or ] after editing broke pasting.
-- Editing fields directly in the JSON box (Position, UserData, BaseType, etc.) wasn't saved.
-- Pasting in other fields only worked when the tree was on root or objects.
-- SSM could lose changes or hit the wrong ship slot when dragging without saving.
-- Custom Starships (e.g. Iron Vulture) didn't correctly link appearance data.
-- Reload file prompt left Ship Slot Manager stuck showing old data.
+- check What's Nee to see the fixes.
 
 Active:
+- Current no know bugs.

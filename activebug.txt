@@ -1,5 +1,2 @@
-Fixed:
-- check What's Nee to see the fixes.
-
 Active:
 - Current no know bugs.

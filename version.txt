@@ -1,7 +1,15 @@
 1.4.3
 on NexusMods
-1.4.6
+1.4.7
 on TAZmd.nl
+
+1.4.7
+Bug Fixes
+- Ctrl+V and the Paste button did nothing when the clipboard content wasn't a JSON object or array (e.g. plain text like a Galactic Address). It now pastes normally at the cursor position.
+- Pasting a single object into the JSON box could insert it at the wrong position (always ending up near the top) when the Corvette's root node was selected instead of the Objects node.
+- Pasting an incomplete or unrecognized piece of JSON (for example a partial selection without matching brackets) wiped the entire JSON box content instead of just pasting normally at the cursor/selection.
+New Features
+- When loading a Corvette file whose saved name is "Default", the app now uses the filename as the Corvette name instead of keeping "Default".
 
 1.4.6
 Bug Fixes

@@ -1,7 +1,19 @@
-1.4.3
+1.4.8
 on NexusMods
-1.4.7
+1.4.8
 on TAZmd.nl
+
+1.4.8
+Bug Fixes
+- (Single File) auto-optimize and auto-delete-duplicates did not run in single mode, whether pasting or using Open File > Single File.
+- (Single File) pasting multiple objects at once in single mode replaced the entire objects list instead of inserting at the cursor position (this already worked correctly when a normal save was loaded).
+- (Single File) opening a .nmsship file directly didn't replace a saved name of "Default" with the filename (this already worked when importing the same file via Load File).
+New Features
+- support for loading .nmsbase and .nmsprefab files.
+- Load File is now available in single mode, letting you replace the objects list without leaving single mode - whether you got there by opening a file or by pasting an object list.
+- Save As now offers Objects Only options for JSON and Text files, alongside the full versions, both in single mode and with a normal save loaded.
+- right-click menu on the JSON editor with Cut, Copy, Paste, Delete, and Select All.
+- the Copy All + PPB button now appears for any objects-only content in single mode - pasted, loaded via Load File, or from the new file types - not just for .nmsship like before.
 
 1.4.7
 Bug Fixes

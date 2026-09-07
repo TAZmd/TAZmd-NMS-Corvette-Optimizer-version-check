@@ -1,6 +1,13 @@
 1.4.8
 on NexusMods 1.4.8
-on TAZmd.nl 1.4.8
+on TAZmd.nl 1.4.9
+
+1.4.9
+Bug Fixes
+- "Collection was modified" error when reordering, deleting, or pasting while a save was still writing. Save, Delete, Paste, Optimize, and Move buttons now grey out while busy.
+New Features
+- Duplicate objects now sort right under Priority items when you run Optimize or AutoOptimize.
+- Duplicates that are also Priority, Orange, or Red show "(Duplicate)" next to their name instead of turning purple.
 
 1.4.8
 Bug Fixes

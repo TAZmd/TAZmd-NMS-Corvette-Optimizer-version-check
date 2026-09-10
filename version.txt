@@ -1,6 +1,11 @@
 1.4.8
 on NexusMods 1.4.8
-on TAZmd.nl 1.4.9
+on TAZmd.nl 1.5.0
+
+1.5.0
+New Features:
+- Added support for the new Space Station Base, External Space Base, Player Space Base and External Space Base.
+- Pasting a bare corvette JSON (for example from Blender) no longer corrupts your save or wipes your Galactic Address, Owner data and Last Update Timestamp when that data is missing or malformed.
 
 1.4.9
 Bug Fixes

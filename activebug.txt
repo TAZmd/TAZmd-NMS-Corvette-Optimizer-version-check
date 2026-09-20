@@ -1,1 +1,1 @@
-Thanks to TAMK 4444 a user from Aresmar's community and Aresmar testing it him self, I have now found the problem what it is with power doors not connected anymore. They found that when you use the Add Corvette button it kills connection. Since Add Corvette adds a Template with Position and Forward of 0.
+

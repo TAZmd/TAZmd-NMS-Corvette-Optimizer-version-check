@@ -1,7 +1,18 @@
-1.5.1
-on NexusMods 1.5.1
-on TAZmd.nl 1.5.1
+1.5.2
+on NexusMods 1.5.2
+on TAZmd.nl 1.5.2
 
+1.5.2
+Bug Fixes
+- Fixed duplicate objects not being detected as duplicates when their rotation values had tiny floating point differences from copying in Blender.
+- Fixed hover tooltips not appearing for objects that were both a priority part and a duplicate at the same time.
+- Fixed translations sometimes not updating to the latest version for users.
+
+New Features
+- Added a noise indicator for objects that make sound in game, with three levels and settings to show or hide each one.
+- Added five new visual themes based on community reference designs, plus a redesigned Appearance section in settings.
+The priority list used during optimization can now be fully edited, including creating your own categories, and can be saved, exported, imported, or reset to default.
+- Added over 100 new buildable objects from the recent Cosmos update, along with previously missing objects from earlier updates.
 
 1.5.1
 Bug Fixes

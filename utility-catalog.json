@@ -1,0 +1,309 @@
+{
+  "formatVersion": 1,
+  "catalogVersion": 2,
+  "tiers": {
+    "redFactor": 0.5,
+    "orangeFactor": 0.75,
+    "red": [
+      "BUILD_REFINER1",
+      "BUILD_REFINER2",
+      "BUILD_REFINER3",
+      "FRE_ROOM_REFINE",
+      "BASE_FLAG",
+      "SET_B_MONU",
+      "SET_MONUMENT",
+      "SET_T_MONU",
+      "SET_F_MONU",
+      "SET_INT_SHIPSAL",
+      "SET_CONSTRUCT",
+      "SET_INT_SUMMARY",
+      "SET_MAYORTERM"
+    ],
+    "orange": [
+      "BUILDBEACON",
+      "MESSAGEMODULE",
+      "NPCBUILDERTERM",
+      "NPCFARMTERM",
+      "NPCSCIENCETERM",
+      "NPCVEHICLETERM",
+      "NPCWEAPONTERM",
+      "SUMMON_GARAGE",
+      "GARAGE_B",
+      "GARAGE_FLOAT",
+      "GARAGE_FREIGHT",
+      "GARAGE_L",
+      "GARAGE_M",
+      "GARAGE_MECH",
+      "GARAGE_S",
+      "GARAGE_SUB"
+    ]
+  },
+  "categories": {
+    "mostRequired": {
+      "weight": 6,
+      "items": [
+        {
+          "label": "Base Teleport Module",
+          "chain": [
+            [
+              "TELEPORTER"
+            ]
+          ]
+        },
+        {
+          "label": "Scanner Room",
+          "chain": [
+            [
+              "FRE_ROOM_SCAN"
+            ]
+          ]
+        },
+        {
+          "label": "Galactic Trade Terminal",
+          "chain": [
+            [
+              "BUILDTERMINAL"
+            ]
+          ]
+        },
+        {
+          "label": "Tractor Beam",
+          "chain": [
+            [
+              "B_MAG_1X1"
+            ]
+          ]
+        }
+      ]
+    },
+    "goodToHave": {
+      "weight": 3,
+      "items": [
+        {
+          "label": "Storage containers",
+          "countPrefixes": [
+            "B_WALL_CARG",
+            "CONTAINER"
+          ]
+        },
+        {
+          "label": "Mission Radar",
+          "chain": [
+            [
+              "B_WALL_TECH1"
+            ]
+          ]
+        },
+        {
+          "label": "Refiner",
+          "chain": [
+            [
+              "FRE_ROOM_REFINE",
+              "BUILD_REFINER3",
+              "B_WALL_TECH0"
+            ],
+            [
+              "BUILD_REFINER2"
+            ],
+            [
+              "BUILD_REFINER1"
+            ]
+          ]
+        },
+        {
+          "label": "Weapon Case",
+          "chain": [
+            [
+              "SET_WEAPONBOX"
+            ]
+          ]
+        },
+        {
+          "label": "Nutrition Unit",
+          "chain": [
+            [
+              "B_WALL_KITC0"
+            ],
+            [
+              "COOKER"
+            ]
+          ]
+        },
+        {
+          "label": "Weapon Rack",
+          "chain": [
+            [
+              "WEAPONRACK"
+            ]
+          ]
+        },
+        {
+          "label": "Staff Builder",
+          "chain": [
+            [
+              "SET_STAFFBUILD"
+            ]
+          ]
+        },
+        {
+          "label": "Hazard Protection Unit",
+          "chain": [
+            [
+              "SHIELDSTATION"
+            ]
+          ]
+        },
+        {
+          "label": "Health Station",
+          "chain": [
+            [
+              "HEALTHSTATION"
+            ]
+          ]
+        },
+        {
+          "label": "Signal Booster",
+          "chain": [
+            [
+              "BUILDSIGNAL"
+            ]
+          ]
+        },
+        {
+          "label": "Holo-Arena Game Table",
+          "chain": [
+            [
+              "GAMETABLE"
+            ]
+          ]
+        },
+        {
+          "label": "Exocraft Research Station",
+          "chain": [
+            [
+              "AM_EXOCRAFTTREE"
+            ]
+          ]
+        },
+        {
+          "label": "Ship Research Station",
+          "chain": [
+            [
+              "AM_SHIPTREE"
+            ]
+          ]
+        },
+        {
+          "label": "Exosuit Research Station",
+          "chain": [
+            [
+              "AM_SUITTREE"
+            ]
+          ]
+        },
+        {
+          "label": "Multi-Tool Research Station",
+          "chain": [
+            [
+              "AM_WEAPONTREE"
+            ]
+          ]
+        },
+        {
+          "label": "Utopia Build Station",
+          "chain": [
+            [
+              "S9_BUILDERTREE"
+            ]
+          ]
+        }
+      ]
+    },
+    "overboard": {
+      "weight": 1,
+      "items": [
+        {
+          "label": "Stellar Extractor Room",
+          "chain": [
+            [
+              "FRE_ROOM_EXTR"
+            ]
+          ]
+        },
+        {
+          "label": "Autonomous Mining Unit",
+          "chain": [
+            [
+              "BUILDHARVESTER"
+            ]
+          ]
+        },
+        {
+          "label": "Gas Harvester",
+          "chain": [
+            [
+              "BUILDGASHARVEST"
+            ]
+          ]
+        },
+        {
+          "label": "Oxygen Harvester",
+          "chain": [
+            [
+              "O2_HARVESTER"
+            ]
+          ]
+        },
+        {
+          "label": "Antimatter Reactor",
+          "chain": [
+            [
+              "BUILDANTIMATTER"
+            ]
+          ]
+        },
+        {
+          "label": "Appearance Modifier",
+          "chain": [
+            [
+              "DRESSING_TABLE"
+            ]
+          ]
+        },
+        {
+          "label": "Livestock Unit",
+          "chain": [
+            [
+              "CREATURE_FARM"
+            ]
+          ]
+        },
+        {
+          "label": "Automated Feeder",
+          "chain": [
+            [
+              "CREATURE_FEED"
+            ]
+          ]
+        },
+        {
+          "label": "Nip Plant",
+          "chain": [
+            [
+              "NIPPLANT"
+            ]
+          ]
+        },
+        {
+          "label": "Fishpond",
+          "chain": [
+            [
+              "SET_FISHPOND"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
+

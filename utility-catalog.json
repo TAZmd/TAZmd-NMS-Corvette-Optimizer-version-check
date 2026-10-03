@@ -1,6 +1,6 @@
 {
   "engine": 1,
-  "catalogVersion": 2,
+  "catalogVersion": 3,
   "tiers": {
     "redFactor": 0.5,
     "orangeFactor": 0.75,
@@ -305,7 +305,8 @@
         "op": "chain",
         "levels": [
           [
-            "AM_SUITTREE"
+            "AM_SUITTREE",
+            "S9_SUITTREE"
           ]
         ]
       }
@@ -318,7 +319,8 @@
         "op": "chain",
         "levels": [
           [
-            "AM_WEAPONTREE"
+            "AM_WEAPONTREE",
+            "S9_WEAPONTREE"
           ]
         ]
       }

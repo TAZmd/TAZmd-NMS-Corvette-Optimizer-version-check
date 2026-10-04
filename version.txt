@@ -1,85 +1,34 @@
-1.5.2
-on NexusMods 1.5.2
-on TAZmd.nl 1.5.2
+2.0
+on NexusMods 2.0
+on TAZmd.nl 2.0
 
-1.5.2
+2.0
+NEW Corvette Library
+
+The new Corvette Library lets you discover and use Corvettes made by other builders.
+- Browse and search the community library.
+- Sort by newest, most downloaded, Utility Score or builder.
+- Filter by favorites and any utility. Click a utility to require it, or click it again to exclude it.
+- View photos, utilities and a Utility Score for each Corvette.
+- Import a Corvette directly into your save or download it as a file.
+- Add your own Corvettes to the library, including photos, instructions, YouTube and Patreon links.
+
+Other Improvements
+- Added a other option for donations than PayPal as requested. If you like what I do, a tip is much appreciated.
+- Added new Optimizer, Ship Slot Manager and Corvette Library tabs.
+- Added Ship Details to edit ship class and base stats.
+- Added Edit Priority List next to the Optimize Corvette button for direct access to the priority list.
+- Added object group filtering.
+- Add Corvette now fills empty ship slots instead of incorrectly reporting that the 12-ship limit has been reached.
+- Added Discord access from the menu and About section.
+- The file name bar, bottom messages and loading screen now follow the selected theme color.
+- Improved the update window.
+
 Bug Fixes
-- Fixed duplicate objects not being detected as duplicates when their rotation values had tiny floating point differences from copying in Blender.
-- Fixed hover tooltips not appearing for objects that were both a priority part and a duplicate at the same time.
-- Fixed translations sometimes not updating to the latest version for users.
-
-New Features
-- Added a noise indicator for objects that make sound in game, with three levels and settings to show or hide each one.
-- Added five new visual themes based on community reference designs, plus a redesigned Appearance section in settings.
-The priority list used during optimization can now be fully edited, including creating your own categories, and can be saved, exported, imported, or reset to default.
-- Added over 100 new buildable objects from the recent Cosmos update, along with previously missing objects from earlier updates.
-
-1.5.1
-Bug Fixes
-- Thanks to TAMK 4444, a user from Aresmar's community, and Aresmar himself testing it, I have now found the cause of the issue with power doors becoming disconnected.
-- They found that using the Add Corvette button breaks the connection. This happens because Add Corvette adds a template with both its Position and Forward values set to 0.
-
-1.5.0
-New Features:
-- Added support for the new Space Station Base, External Space Base, Player Space Base and External Space Base.
-- Pasting a bare corvette JSON (for example from Blender) no longer corrupts your save or wipes your Galactic Address, Owner data and Last Update Timestamp when that data is missing or malformed.
-
-1.4.9
-Bug Fixes
-- "Collection was modified" error when reordering, deleting, or pasting while a save was still writing. Save, Delete, Paste, Optimize, and Move buttons now grey out while busy.
-New Features
-- Duplicate objects now sort right under Priority items when you run Optimize or AutoOptimize.
-- Duplicates that are also Priority, Orange, or Red show "(Duplicate)" next to their name instead of turning purple.
-
-1.4.8
-Bug Fixes
-- (Single File) auto-optimize and auto-delete-duplicates did not run in single mode, whether pasting or using Open File > Single File.
-- (Single File) pasting multiple objects at once in single mode replaced the entire objects list instead of inserting at the cursor position (this already worked correctly when a normal save was loaded).
-- (Single File) opening a .nmsship file directly didn't replace a saved name of "Default" with the filename (this already worked when importing the same file via Load File).
-New Features
-- support for loading .nmsbase and .nmsprefab files.
-- Load File is now available in single mode, letting you replace the objects list without leaving single mode - whether you got there by opening a file or by pasting an object list.
-- Save As now offers Objects Only options for JSON and Text files, alongside the full versions, both in single mode and with a normal save loaded.
-- right-click menu on the JSON editor with Cut, Copy, Paste, Delete, and Select All.
-- the Copy All + PPB button now appears for any objects-only content in single mode - pasted, loaded via Load File, or from the new file types - not just for .nmsship like before.
-
-1.4.7
-Bug Fixes
-- Ctrl+V and the Paste button did nothing when the clipboard content wasn't a JSON object or array (e.g. plain text like a Galactic Address). It now pastes normally at the cursor position.
-- Pasting a single object into the JSON box could insert it at the wrong position (always ending up near the top) when the Corvette's root node was selected instead of the Objects node.
-- Pasting an incomplete or unrecognized piece of JSON (for example a partial selection without matching brackets) wiped the entire JSON box content instead of just pasting normally at the cursor/selection.
-New Features
-- When loading a Corvette file whose saved name is "Default", the app now uses the filename as the Corvette name instead of keeping "Default".
-
-1.4.6
-Bug Fixes
-- In Single File Mode pasting a full ship JSON could wipe its UserData number and set it to -1 when nothing valid was selected. The correct number is now kept.
-- Loading a save with a broken or missing UserData number used to crash the app. It now repairs the file automatically or shows an error message instead of closing.
-New Features
-- Bases, freighters, and corvettes with a broken UserData number now show up in their own "Wrong UserData" section at the top of the tree, instead of being mixed into Corvettes, Freighter, and Bases.
-- What's New popup now shows your current version separately from the latest versions.
-- Report Bug window's shows fixed and active breakdown.
-
-1.4.5
-Bug Fixes
-- Fixed: Ctrl+V after Ctrl+A (select all) in the objects box added instead of replacing.
-- Fixed: pasting after manually clearing the JSON box could bring back deleted objects.
-- Fixed: missing [ or ] after editing no longer breaks pasting - auto-repaired.
-- Fixed: editing fields directly in the JSON box (Position, UserData, BaseType, etc.) wasn't actually saved. Now it is, for every base type.
-
-1.4.4
-Bug Fixes
-- Fixed pasting in other fields when the tree is open, and not only root and objects.
-- SSM (Ship Slot Manager) loses your changes and can hit the wrong ship, If you drag a ship to a new slot without saving yet, and then delete a ship, it can affect the wrong slot, and your drag gets undone.
-- Fixed: custom Starships (e.g. Iron Vulture) now correctly link their appearance data when added or changed.
-- Fixed: the "reload file" prompt no longer leaves the Ship Slot Manager panel stuck showing old data.
-
-1.4.3
-Bug Fixes
-- SSM: The Confirm Save Changes screen now lines up UserData and Slot numbers correctly by their actual value instead of by list position, so mismatches are no longer shown on the wrong row.
-- What's New popup no longer cuts off the last few lines of long changelogs.
-- Object list colors (priority, tier warnings, duplicates) no longer show on Freighters and Bases, since those colors only apply to Corvettes.
-
-New Features
-- SSM: New "Add New Starship" button in Ship Slot Manager lets you assign a unique starships.
-- Load File is now available for Freighters and Bases, not just Corvettes.
+- Fixed Blender copying filling Position and Forward with zeros.
+- Fixed incorrect object and ship names in several parts of the app.
+- Fixed Expedition Corvette object names.
+- Fixed haulers being incorrectly identified as Iron Vultures.
+- Fixed adding multiple Corvettes using the same slot and name.
+- Fixed several translation issues.
+- Fixed scrollbar issues.

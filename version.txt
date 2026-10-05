@@ -1,6 +1,16 @@
-2.0
-on NexusMods 2.0
-on TAZmd.nl 2.0
+2.0.1
+on NexusMods 2.0.1
+on TAZmd.nl 2.0.1
+
+2.0.1
+Bug Fixes
+- Fixed the active tab being dark and unreadable in the Light, OOGC and Base Builder App themes.
+
+New Features
+- Uploading Corvettes to the library now requires logging in with Discord. You also need to be a member of our Discord server.
+- Bulk upload now uses the Bulk role in our Discord server instead of an access code.
+- Every Corvette in the library now has a small siren button to report a problem or a stolen ship. It opens our Discord report channel.
+
 
 2.0
 NEW Corvette Library

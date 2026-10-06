@@ -1,6 +1,20 @@
 2.0.1
 on NexusMods 2.0.1
-on TAZmd.nl 2.0.1
+on TAZmd.nl 2.0.2
+
+2.0.2
+New Features
+- Uploading Corvettes now requires a Discord login. You also need to be a member of our Discord server. The "Verify I'm human" check is gone, because the Discord login replaces it.
+- Bulk upload now uses the Bulk role in our Discord server instead of an access code.
+- The upload rules are now a link to the rules in our Discord, so the rules are always up to date. The old rules box is gone.
+- After a successful upload you now see a thank you page, with tips on how to edit or remove your Corvette later.
+- New "Builder login" button at the top of the library. After logging in you also get a "My Uploads" button with all your own Corvettes.
+- In My Uploads you can edit/delete your Corvette: change the name, instructions and YouTube or Patreon links, upload a new JSON file with a reason for the update, and change, remove, reorder or add photos (drag a photo to the left to make it the primary photo). Your change is checked before it goes online.
+- Updated Corvettes show an update icon next to the info icon, with "Updated v1" (or v2, v3, and so on) and the reason the builder gave. Corvettes with a new JSON file also move up in "Last submitted/updated".
+- New sort option "Hidden gems": Corvettes with lots of utilities that have not been downloaded much yet.
+- The thank you window now shows the Discord name of the uploader, so you know who to thank in the Thanks channel.
+- New small siren button on every Corvette card to report a problem or a stolen ship.
+
 
 2.0.1
 Bug Fixes

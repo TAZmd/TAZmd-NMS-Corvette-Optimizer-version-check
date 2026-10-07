@@ -1,6 +1,19 @@
-2.0.1
-on NexusMods 2.0.1
-on TAZmd.nl 2.0.2
+2.0.3
+on NexusMods 2.0.3
+on TAZmd.nl 2.0.3
+
+2.0.3
+New Features
+- The Utility Score window now lists the utilities your Corvette is missing.
+- The Corvette Library tab now shows the Utility Score of the Corvette you select on the left.
+- You can now leave comments on a Corvette. Log in with Discord and download or import the Corvette first.
+- Click a Corvette card to open a panel on the right with all details, instructions and comments.
+- A bell shows how many new comments your Corvettes got. Click it to go straight to them.
+- Every card now shows how many comments the Corvette has.
+- The thank you window now lets you copy the builder name for Discord and leave a comment right away.
+- You can now add a TikTok link instead of a YouTube link.
+- The Corvette Library header now shows a clear path and a Back button.
+- If a Corvette is rejected, you can now see the reason in My Uploads.
 
 2.0.2
 New Features

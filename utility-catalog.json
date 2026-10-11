@@ -1,6 +1,6 @@
 {
   "engine": 1,
-  "catalogVersion": 7,
+  "catalogVersion": 8,
   "tiers": {
     "redFactor": 0.5,
     "orangeFactor": 0.75,
@@ -448,8 +448,8 @@
       }
     },
     {
-      "key": "nip_plant_tray",
-      "label": "Nip Plant Tray",
+      "key": "plant_tray",
+      "label": "Plant Tray",
       "group": "overboard",
       "value": {
         "op": "min",
@@ -1150,7 +1150,7 @@
         "args": [
           {
             "op": "ref",
-            "key": "nip_plant_tray"
+            "key": "plant_tray"
           },
           {
             "op": "div",

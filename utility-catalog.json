@@ -1,6 +1,6 @@
 {
   "engine": 1,
-  "catalogVersion": 3,
+  "catalogVersion": 7,
   "tiers": {
     "redFactor": 0.5,
     "orangeFactor": 0.75,
@@ -61,7 +61,9 @@
         "op": "chain",
         "levels": [
           [
-            "TELEPORTER"
+            "TELEPORTER",
+            "TELEPORTER_F",
+            "FRE_ROOM_TELEPO"
           ]
         ]
       }
@@ -87,7 +89,8 @@
         "op": "chain",
         "levels": [
           [
-            "BUILDTERMINAL"
+            "BUILDTERMINAL",
+            "FRE_ROOM_SHOP"
           ]
         ]
       }
@@ -185,7 +188,8 @@
         "op": "chain",
         "levels": [
           [
-            "B_WALL_KITC0"
+            "B_WALL_KITC0",
+            "FRE_ROOM_COOK"
           ],
           [
             "COOKER"
@@ -411,7 +415,8 @@
         "op": "chain",
         "levels": [
           [
-            "DRESSING_TABLE"
+            "DRESSING_TABLE",
+            "FRE_ROOM_DRESS"
           ]
         ]
       }
@@ -443,15 +448,67 @@
       }
     },
     {
-      "key": "nip_plant",
-      "label": "Nip Plant",
+      "key": "nip_plant_tray",
+      "label": "Nip Plant Tray",
       "group": "overboard",
       "value": {
-        "op": "chain",
-        "levels": [
-          [
-            "NIPPLANT"
-          ]
+        "op": "min",
+        "args": [
+          1,
+          {
+            "op": "div",
+            "args": [
+              {
+                "op": "min",
+                "args": [
+                  {
+                    "op": "count",
+                    "ids": [
+                      "NIPPLANT"
+                    ]
+                  },
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "op": "count",
+                        "ids": [
+                          "PLANTER"
+                        ]
+                      },
+                      {
+                        "op": "mul",
+                        "args": [
+                          2,
+                          {
+                            "op": "count",
+                            "ids": [
+                              "B_WALL_PLAN0",
+                              "FRE_ROOM_PLANT1"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "op": "mul",
+                        "args": [
+                          4,
+                          {
+                            "op": "count",
+                            "ids": [
+                              "PLANTERMEGA",
+                              "FRE_ROOM_PLANT0"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              4
+            ]
+          }
         ]
       }
     },
@@ -1093,7 +1150,7 @@
         "args": [
           {
             "op": "ref",
-            "key": "nip_plant"
+            "key": "nip_plant_tray"
           },
           {
             "op": "div",
@@ -1175,7 +1232,7 @@
         "^NIPPLANT",
         "^NIPPLANT"
       ],
-      "score": 0.3
+      "score": 0.2
     },
     {
       "ids": [
@@ -1287,7 +1344,7 @@
         "^BASE_FLAG",
         "^BUILDBEACON"
       ],
-      "score": 1.3
+      "score": 1.2
     },
     {
       "ids": [
@@ -1328,7 +1385,7 @@
         "^BASE_FLAG",
         "^BUILDBEACON"
       ],
-      "score": 6.5
+      "score": 6.4
     },
     {
       "ids": [
@@ -1373,7 +1430,7 @@
         "^JUNK",
         "^BUILDBEACON"
       ],
-      "score": 1.9
+      "score": 1.8
     },
     {
       "ids": [
@@ -1424,7 +1481,149 @@
         "^JUNK",
         "^WALL1"
       ],
-      "score": 1.4
+      "score": 1.3
+    },
+    {
+      "ids": [
+        "^NIPPLANT"
+      ],
+      "score": 0.0
+    },
+    {
+      "ids": [
+        "^PLANTER"
+      ],
+      "score": 0.0
+    },
+    {
+      "ids": [
+        "^PLANTER",
+        "^NIPPLANT"
+      ],
+      "score": 0.0
+    },
+    {
+      "ids": [
+        "^PLANTERMEGA",
+        "^NIPPLANT"
+      ],
+      "score": 0.0
+    },
+    {
+      "ids": [
+        "^PLANTERMEGA",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^PLANTERMEGA",
+        "^PLANTER",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^B_WALL_PLAN0",
+        "^NIPPLANT",
+        "^NIPPLANT"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^B_WALL_PLAN0",
+        "^NIPPLANT"
+      ],
+      "score": 0.0
+    },
+    {
+      "ids": [
+        "^B_WALL_PLAN0",
+        "^B_WALL_PLAN0",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^FRE_ROOM_SHOP",
+        "^TELEPORTER",
+        "^FRE_ROOM_SCAN",
+        "^B_MAG_1X1"
+      ],
+      "score": 6.0
+    },
+    {
+      "ids": [
+        "^FRE_ROOM_TELEPO"
+      ],
+      "score": 1.5
+    },
+    {
+      "ids": [
+        "^TELEPORTER_F"
+      ],
+      "score": 1.5
+    },
+    {
+      "ids": [
+        "^FRE_ROOM_DRESS"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^FRE_ROOM_COOK"
+      ],
+      "score": 0.2
+    },
+    {
+      "ids": [
+        "^FRE_ROOM_PLANT0",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^FRE_ROOM_PLANT1",
+        "^NIPPLANT",
+        "^NIPPLANT"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^FRE_ROOM_COOK",
+        "^FRE_ROOM_DRESS",
+        "^FRE_ROOM_TELEPO",
+        "^FRE_ROOM_PLANT0",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT",
+        "^NIPPLANT"
+      ],
+      "score": 1.9
     }
   ]
 }

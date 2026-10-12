@@ -1,6 +1,6 @@
 {
   "engine": 1,
-  "catalogVersion": 8,
+  "catalogVersion": 9,
   "tiers": {
     "redFactor": 0.5,
     "orangeFactor": 0.75,
@@ -456,57 +456,24 @@
         "args": [
           1,
           {
-            "op": "div",
+            "op": "min",
             "args": [
               {
-                "op": "min",
-                "args": [
-                  {
-                    "op": "count",
-                    "ids": [
-                      "NIPPLANT"
-                    ]
-                  },
-                  {
-                    "op": "add",
-                    "args": [
-                      {
-                        "op": "count",
-                        "ids": [
-                          "PLANTER"
-                        ]
-                      },
-                      {
-                        "op": "mul",
-                        "args": [
-                          2,
-                          {
-                            "op": "count",
-                            "ids": [
-                              "B_WALL_PLAN0",
-                              "FRE_ROOM_PLANT1"
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "op": "mul",
-                        "args": [
-                          4,
-                          {
-                            "op": "count",
-                            "ids": [
-                              "PLANTERMEGA",
-                              "FRE_ROOM_PLANT0"
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
+                "op": "count",
+                "ids": [
+                  "NIPPLANT"
                 ]
               },
-              4
+              {
+                "op": "count",
+                "ids": [
+                  "PLANTER",
+                  "B_WALL_PLAN0",
+                  "PLANTERMEGA",
+                  "FRE_ROOM_PLANT0",
+                  "FRE_ROOM_PLANT1"
+                ]
+              }
             ]
           }
         ]
@@ -1500,14 +1467,14 @@
         "^PLANTER",
         "^NIPPLANT"
       ],
-      "score": 0.0
+      "score": 0.1
     },
     {
       "ids": [
         "^PLANTERMEGA",
         "^NIPPLANT"
       ],
-      "score": 0.0
+      "score": 0.1
     },
     {
       "ids": [
@@ -1548,7 +1515,7 @@
         "^B_WALL_PLAN0",
         "^NIPPLANT"
       ],
-      "score": 0.0
+      "score": 0.1
     },
     {
       "ids": [
@@ -1624,6 +1591,41 @@
         "^NIPPLANT"
       ],
       "score": 1.9
+    },
+    {
+      "ids": [
+        "^B_WALL_PLAN0",
+        "^NIPPLANT",
+        "^NIPPLANT"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^PLANTER",
+        "^NIPPLANT"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^FRE_ROOM_PLANT1",
+        "^NIPPLANT"
+      ],
+      "score": 0.1
+    },
+    {
+      "ids": [
+        "^PLANTER",
+        "^B_WALL_PLAN0"
+      ],
+      "score": 0.0
+    },
+    {
+      "ids": [
+        "^NIPPLANT"
+      ],
+      "score": 0.0
     }
   ]
 }

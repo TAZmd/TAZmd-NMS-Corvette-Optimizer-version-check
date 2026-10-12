@@ -1,6 +1,30 @@
-2.0.3
-on NexusMods 2.0.3
-on TAZmd.nl 2.0.3
+2.0.5
+on NexusMods 2.0.5
+on TAZmd.nl 2.0.5
+
+
+2.0.5
+Bug Fixes
+- Galactic Trade, Teleport, Dressing, and Cooking rooms now correctly count toward their respective utilities in the Utility Score.
+New Features
+- Ship owners can now react to comments on their Corvette with a heart, thumbs up, or neutral face. These reactions are visible to everyone.
+- The Utility Score now includes a Plant Tray. Planters, wall planters, and plant rooms contribute based on their plant capacity. The Nip Plant is no longer counted as a separate utility.
+
+Side Note
+- I tried to find a solution for ships where an object obstructs the cockpit, causing white flashes on the screen when you're being shot at in first-person view.
+  Unfortunately, because there are so many different ship builds, it's impossible to create a solution that works for every setup.
+  The best approach is to identify which object is obstructing the cockpit and manually move it to the top of the object order.
+
+2.0.4
+Bug Fixes
+- The Utility score no longer overlaps the Your Corvettes list.
+- Ship names on the Library cards now stay centered and no longer shift when icons appear.
+
+New Features
+- The comment box now shows the comment limits before you start typing.
+- The Post button now waits by itself with a countdown when you reach the limit, instead of showing an error.
+- The ship details panel no longer repeats the Import and Download buttons, the object count and the Utility list.
+- When a download or import fails, the message now shows the reason.
 
 2.0.3
 New Features

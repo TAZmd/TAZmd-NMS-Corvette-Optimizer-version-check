@@ -1,0 +1,20 @@
+1
+Corvette Upload Rules
+1. Only upload Corvettes you built yourself. Do not upload someone else's Corvette, even if you only changed the color or made a few small changes.
+2. No sexual, racist, hateful, discriminatory, or otherwise offensive content. This applies to the Corvette, its name, photos, and links.
+3. Use your own builder name. Do not use someone else's name or impersonate another builder.
+4. Only use photos of the Corvette you are uploading.
+5. Only link to your own Patreon, YouTube, or TikTok.
+6. Do not upload the same Corvette more than once. Spam uploads are not allowed.
+7. Only upload original, unmodified Corvette files. Modified or tampered files will be rejected.
+8. By uploading a Corvette, you allow it to be stored, displayed, shared, and downloaded by other users for free through the Corvette Optimizer.
+9. Every Corvette is checked before publication. We reserve the right to reject or remove any Corvette.
+10. Breaking these rules may result in a permanent ban.
+
+Privacy Policy
+1. When browsing or downloading Corvettes, NMSCO may collect your IP address and download activity to prevent abuse, bots, spam, and excessive downloads.
+2. Download activity is used only to enforce download limits. Download logs are automatically deleted after 30 days. Certain technical identifiers are stored in hashed form.
+3. If you log in with Discord, your Discord ID and username are stored so you can upload and manage your Corvettes. Discord handles its own data according to its privacy policy.
+4. Uploaded Corvettes, photos, builder names, and links are stored and made available to other users. Do not include personal information in public uploads.
+5. Your personal data is never sold or shared with anyone. Discord is configured so that your actual personal data is never visible on the server, and other server administrators cannot access it.
+6. For questions or requests concerning your personal data, contact TAZmd.

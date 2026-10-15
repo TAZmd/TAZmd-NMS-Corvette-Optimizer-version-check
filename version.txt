@@ -1,7 +1,12 @@
 2.0.5
-on NexusMods 2.0.5
-on TAZmd.nl 2.0.5
+on NexusMods 2.0.6
+on TAZmd.nl 2.0.6
 
+2.0.6
+New Features
+- The Corvette Library now displays the upload rules and Privacy Policy. You must accept them before using the library.
+- The rules link on the upload page now opens the rules and Privacy Policy directly in the app.
+- Download limits have been adjusted. You can now download a full set of 12 Corvettes without waiting.
 
 2.0.5
 Bug Fixes

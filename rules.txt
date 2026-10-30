@@ -1,4 +1,4 @@
-1
+2
 Corvette Upload Rules
 1. Only upload Corvettes you built yourself. Do not upload someone else's Corvette, even if you only changed the color or made a few small changes.
 2. No sexual, racist, hateful, discriminatory, or otherwise offensive content. This applies to the Corvette, its name, photos, and links.
@@ -10,6 +10,13 @@ Corvette Upload Rules
 8. By uploading a Corvette, you allow it to be stored, displayed, shared, and downloaded by other users for free through the Corvette Optimizer.
 9. Every Corvette is checked before publication. We reserve the right to reject or remove any Corvette.
 10. Breaking these rules may result in a permanent ban.
+
+Corvette Download Rules
+1. Ownership: Every Corvette remains the property of its original builder. Downloading a Corvette grants you a personal-use licence only. It does not transfer ownership.
+2. Personal Modifications: You may modify downloaded Corvettes for your own personal use, including changing colours, parts or other features.
+3. No Redistribution: You may not share, publish or upload downloaded Corvettes, whether original or modified. This includes websites, Discord servers, social media and other Corvette libraries.
+4. No Commercial Use: You may not sell, trade or otherwise use a downloaded Corvette for financial gain.
+5. Violations: Failure to follow these rules may result in a permanent ban.
 
 Privacy Policy
 1. When browsing or downloading Corvettes, NMSCO may collect your IP address and download activity to prevent abuse, bots, spam, and excessive downloads.

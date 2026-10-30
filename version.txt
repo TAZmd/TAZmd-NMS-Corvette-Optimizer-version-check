@@ -1,6 +1,21 @@
-2.0.5
-on NexusMods 2.0.6
-on TAZmd.nl 2.0.6
+2.0.7
+on NexusMods 2.0.7
+on TAZmd.nl 2.0.7
+
+2.0.7
+Bug Fixes
+- The Delete Corvette button remained visible after selecting a category header or an empty area. It now only appears when a deletable Corvette is selected.
+- The up and down arrows for Cockpit and Landing Bay in the Priority editor did nothing. These arrows have been removed, with a note explaining that these objects always retain their original JSON order.
+- Several object names were displayed as internal codes or were cut off, including posters, signs, the Café 42 decal, and Corvette plating and rim parts. These names now display correctly.
+
+New Features
+- Added support for parts introduced in the Forsaken update, including the Hornet, Viper, Mantis and Vantage cockpits; the Limos, Vile Proboscis and Chelone generators, new thrusters, and the Dematerialisation Ray.
+- Priority categories can now be moved up and down in the Priority editor.
+- The Corvette Library sorting options have been combined into a single dropdown, allowing multiple sorting criteria to be selected at once. New options include part count, comments and updated versions. Combined sorting ranks Corvettes using all selected criteria.
+- Long Corvette names in the Corvette Library now scroll smoothly when hovering over a tile.
+- The object filter button has been renamed Filter / Sort. Other objects can now be sorted by description name or Object ID, and the selected sorting preference is remembered.
+- MiLf&CoOkIeS has been added to the Ambassadors list.
+
 
 2.0.6
 New Features

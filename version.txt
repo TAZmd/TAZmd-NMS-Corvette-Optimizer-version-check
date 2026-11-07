@@ -1,6 +1,14 @@
-2.0.7
-on NexusMods 2.0.7
-on TAZmd.nl 2.0.7
+2.0.8
+New Features
+- The app can now update itself. In the update window, click Download now and restart to automatically install the new version (Windows only).
+- The Optimize button can now be configured in Settings. You can add Paste as the first action and Copy as the second.
+- The utility score window now shows the ID of every utility in brackets.
+
+Bug Fixes
+- When pasting a base onto a Corvette, the Corvette now also adopts the name of the pasted base, This fixes where resent blender plugin don't paste name.
+- Temporarily stored Corvettes are now displayed in their own group again instead of incorrectly appearing in the Wrong UserData group.
+- The thank-you page displayed after uploading now clearly states that your Corvette must be approved before it can be used.
+
 
 2.0.7
 Bug Fixes
